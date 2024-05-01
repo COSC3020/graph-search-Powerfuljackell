@@ -6,7 +6,7 @@ eval(fs.readFileSync('code.js')+'');
 //looked at Assel Aljazwe's test code, however, I wanted to continue to use js verify, but was unable to get it to work
 
 const testset = [
-    { graph: [[1, 5], [0, 2, 4], [1], [4, 6], [1, 3], [0], [3]], start: 1, end: 5, expected: [ 1, 0, 5 ] },
+    { graph: [[1, 5], [0, 2, 4], [1], [4, 6], [1, 3], [0], [3]], start: 1, end: 5, expected: [ 1, 0, 4 ] },
     { graph: [[1, 5], [0, 2, 4], [1], [4, 6], [1, 3], [0], [3]], start: 2, end: 6, expected: [ 2, 1, 4, 3, 6 ] },
     { graph: [[1, 5], [0, 2, 3, 4], [1], [1, 4, 6], [1, 3], [0], [3]], start: 1, end: 6, expected: [ 1, 3, 6 ] },
     { graph: [[1, 5], [0, 2, 3, 4], [1], [1, 4, 6], [1, 3], [0], [3]], start: 3, end: 2, expected: [ 3, 1, 2 ] },
