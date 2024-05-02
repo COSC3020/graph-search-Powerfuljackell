@@ -27,6 +27,8 @@ the function and run automatically when you commit through a GitHub action.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+The worst case $\Theta$ would be $\Theta(V+E)$ where V is the number of vertices and E is the number of edges in the graph. This is because the DFS will check every possible route to find the final node in the search (using both vertices and edges), but it is also aware of every vertex it has already checked, reducing repetition.
+
 ## Bonus
 
 Implement and analyze breadth-first search.
